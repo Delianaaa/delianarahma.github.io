@@ -1,0 +1,124 @@
+---
+title: "Analisis Ekspor Minyak Kelapa Sawit Menurut Negara Tujuan Utama Tahun 2020-2021"
+subtitle: "Metode Penelitian Politeknik APP Jakarta"
+author: "Deliana Rahma Rihadah"
+date: 2022-08-29
+number-sections: true
+format:
+  html: default
+  docx: default
+editor: visual
+---
+
+## Pendahuluan
+
+### Latar belakang
+
+Minyak kelapa sawit adalah salah satu minyak yang paling banyak digunakan dan diproduksi di planet ini. Minyak berbiaya rendah, mudah dibuat, dan sangat stabil ini digunakan dalam berbagai produk makanan, kosmetik, dan kebersihan, dan juga dapat digunakan sebagai sumber biofuel atau biodiesel. Kelapa sawit mayoritas diproduksi di Asia, Afrika, dan Amerika Selatan karena pohon kelapa sawit membutuhkan suhu yang hangat, sinar matahari, dan curah hujan yang cukup untuk tumbuh subur.
+
+### Ruang lingkup
+
+Lingkup bahasan permasalahan ini berupa perkembangan nilai ekspor minyak kelapa sawit Indonesia menurut negara utama pada tahun 2020-2021.
+
+### Rumusan masalah
+
+1.  Apa saja faktor-faktor yang mempengaruhi ekspor minyak kelapa sawit Indonesia?
+
+### Tujuan dan manfaat penelitian
+
+Setiap penelitian yang dilakukan tentunya mempunyai sasaran yang hendak dicapai atau apa yang menjadi tujuan penelitian tentu jelas diketahui sebelumnya. Adapun tujuan dari penelitian ini yaitu untuk mengetahui faktor-faktor yang mempengaruhi minyak kelapa sawit Indonesia yang di ekspor ke beberapa negara utama.
+
+Dari setiap penelitian tentunya juga akan diperoleh hasil yang diharapkan dan dapat memberi manfaat dari penulis maupun pihak lain yang membutuhkan manfaat dari penelitian ini adalah:
+
+1.  Bagi Penulis
+
+    Sebagai sarana dan melatih untuk mengembangkan kemampuan berfikir ilmiah, sistematis dan kemampuan untuk dapat menuliskan dalam bentuk karya ilmiah.
+
+2.  Secara Akademis
+
+    Penelitian ini dapat menambah kepustakaan dan dapat dijadikan bahan referensi untuk penelitian selanjutnya.
+
+### Package
+
+Ini tidak wajib ada di packages yang digunakan antara lain sebagai berikut:
+
+```{r}
+#| warning: false
+#| echo: true
+library(tidyverse)
+library(readxl)
+```
+
+## Studi pustaka
+
+Teori Ekspor
+
+Ekspor adalah berbagai macam barang dan jasa yang diproduksi di dalam negeri lalu di jual di luar negeri (Mankiw, 2006). Ditinjau dari sudut pengeluaran, ekspor merupakan salah satu faktor terpenting dari Gross Nasional Produk (GNP), sehingga dengan berubahnya nilai ekspor maka pendapatan masyarakat secara langsung juga akan mengalami perubahan. Dilain pihak, tingginya ekspor suatu negara akan menyebabkan perekonomian tersebut akan sangat sensitif terhadap keguncang-guncangan atau fluktuasi yang terjadi di pasaran internasional maupun di perekonomian dunia (Irham dan Yogi, 2003).
+
+## Metode penelitian
+
+### Data
+
+Data Ekspor Minyak Kelapa Sawit Indonesia ke Beberapa Negara Tujuan Utama Pada Tahun 2020
+
+| **Negara Tujuan** | **2020** |
+|-------------------|----------|
+| India             | 4568.7   |
+| Tiongkok          | 4390.1   |
+| Pakistan          | 2487.3   |
+| Belanda           | 682.8    |
+| Amerika Serikat   | 1123.7   |
+| Spanyol           | 1135.8   |
+| Mesir             | 970.9    |
+| Bangladesh        | 1026.6   |
+| Italia            | 944.7    |
+| Singapura         | 360.6    |
+| Lainnya           | 9634.7   |
+
+Data Ekspor Minyak Kelapa Sawit Indonesia ke Beberapa Negara Tujuan Utama Pada Tahun 2021
+
+| **Negara Tujuan** | **2021** |
+|-------------------|----------|
+| India             | 3088.7   |
+| Tiongkok          | 4703.1   |
+| Pakistan          | 2674.3   |
+| Belanda           | 567.0    |
+| Amerika Serikat   | 1640.2   |
+| Spanyol           | 992.8    |
+| Mesir             | 1035.3   |
+| Bangladesh        | 1319.4   |
+| Italia            | 622.7    |
+| Singapura         | 55.7     |
+| Lainnya           | 10290.8  |
+
+Kedua data tersebut berdasarkan database dari Badan Pusat Statistik (BPS) yang diolah dari dokumen kepabeanan Ditjen Bea dan Cukai (PEB dan PIB) dan dikutip dari Publikasi Statistik Indonesia.
+
+!(poltekapp.jpg)
+
+### Metode analisis
+
+Metode yang dipilih adalah regresi univariat atau Ordinary Least Square (OLS) dengan 1 variabel independen. Penelitian ini bermaksud menganalisis faktor-faktor ekspor minyak kelapa sawit Indonesia ke beberapa negara utama.
+
+## Pembahasan
+
+### Pembahasan masalah
+
+Peningkatan ekspor komoditas ini tidak terlepas dari semakin tingginya tingkat produktivitas. Sebagaimana Cason (1999) menjelaskan bahwa peningkatan produksi kelapa sawit bisa disebabkan oleh beberapa faktor antara lain efisiensi dan ketersediaan lahan panen, biaya produksi yang rendah, pasar domestik dan internasional yang menjanjikan, serta kebijakan pemerintah yang mendorong pengembangan industri kelapa sawit.
+
+## Kesimpulan
+
+Berdasarkan hasil penelitian dan analisis yang telah dilakukan terhadap analisis faktor-faktor yang mempengaruhi ekspor minyak kelapa sawit Indonesia tahun 2020- 2021, maka dapat kita ambil kesimpulan bahwa variabel produksi minyak kelapa sawit Indonesia tidak signifikan dalam jangka panjang dan jangka pendek terhadap volume ekspor minyak kelapa sawit ke India, dikarenakan peningkatan produksi minyak kelapa sawit Indonesia di ikuti dengan peningkatan tingkat konsumsi bahan pokok dalam negeri, seperti minyak kelapa sawit. Serta permintaan impor dari negara India yang tidak baik, dikarenakan regulasi mengenai impor.
+
+## Referensi
+
+ANALISIS FAKTOR-FAKTOR YANG MEMPENGARUHI EKSPOR MINYAK KELAPA SAWIT DI INDONESIA TAHUN 2012-2019 DALAM PERSPEKTIF EKONOMI ISLAM Skripsi. (n.d.). Retrieved January 20, 2023, from http://repository.radenintan.ac.id/11938/2/SKRIPSI%202.pdf
+
+Analisis Faktor-Faktor yang Mempengaruhi Ekspor Minyak Kelapa Sawit Indonesia ke India. (2023). Unnes.ac.id. https://journal.unnes.ac.id/sju/index.php/eeaj/article/view/31492/13642
+
+ANALISIS FAKTOR -FAKTOR YANG MEMPENGARUHI EKSPOR MINYAK KELAPA SAWIT (CPO) INDONESIA KE INDIA TAHUN 1989 -2020. (n.d.). Retrieved January 20, 2023, from https://dspace.uii.ac.id/bitstream/handle/123456789/38124/18313165.pdf?sequence=1
+
+Badan Pusat Statistik. (2021). Bps.go.id. https://www.bps.go.id/statictable/2014/09/08/1026/ekspor-minyak-kelapa-sawit-menurut-negara-tujuan-utama-2012-2021.html
+
+Indonesia Investments. (2023, January 18). Minyak Kelapa Sawit Indonesia - Produksi & Ekspor CPO \| Indonesia Investments. Indonesia-Investments.com. https://www.indonesia-investments.com/id/bisnis/komoditas/minyak-sawit/item166
+
+Kementerian Keuangan Republik Indonesia. (2023). Kemenkeu.go.id. https://www.kemenkeu.go.id/informasi-publik/publikasi/berita-utama/Komitmen-Pemerintah-Ekspor-Produk-Sawit
