@@ -1,1 +1,0 @@
-# delianarahma.github.io
