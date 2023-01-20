@@ -38,17 +38,6 @@ Dari setiap penelitian tentunya juga akan diperoleh hasil yang diharapkan dan da
 
     Penelitian ini dapat menambah kepustakaan dan dapat dijadikan bahan referensi untuk penelitian selanjutnya.
 
-### Package
-
-Ini tidak wajib ada di packages yang digunakan antara lain sebagai berikut:
-
-```{r}
-#| warning: false
-#| echo: true
-library(tidyverse)
-library(readxl)
-```
-
 ## Studi pustaka
 
 Teori Ekspor
